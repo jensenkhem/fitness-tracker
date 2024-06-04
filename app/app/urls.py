@@ -18,6 +18,8 @@ from django.contrib import admin
 from django.urls import include, path
 
 urlpatterns = [
-    path("tracker/", include("fitness_tracker.urls")),
+    # Import the url patterns from the tracker module and place them under /tracker
+    path("tracker/", include("tracker.urls")),
+    # Admin view route
     path('admin/', admin.site.urls),
 ]

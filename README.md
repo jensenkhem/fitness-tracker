@@ -19,6 +19,8 @@ Chosen because I am used to using React, and want to compare the developer exper
 
 Its a classic choice that meets my needs and I am familiar with.
 
+Instructions for spinning up the database image can be found in the `database` directory of this repo.
+
 ## Build instructions
 *todo*
 
